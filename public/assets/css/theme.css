@@ -1,0 +1,145 @@
+.table-image thead {
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+
+/*  toggle button*/
+
+.switch {
+    margin-left: 0px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#example_paginate{
+    float:right;
+}
+
+#example_length{
+    display:none;
+}
+
+
+.col{
+    margin-left:5px;
+}
+
+.bootstrap-select .dropdown-toggle {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    height:40px;
+    min-width:100%;
+}
+
+.filter-option-inner-inner{
+    font-size: 20px;
+    color: #1797EA ;
+}
+.bootstrap-select > .dropdown-toggle {
+    height: 35px;
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+}
+
+.filter-option-inner {
+    margin-top: -3px;
+    color: #1797EA;
+}
+
+.table-image thead {
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+
+#example_paginate {
+    float: right;
+}
+
+#example_length {
+    display: none;
+}
+
+.error{
+    color:red;
+}
+.errors{
+    color:red;
+}
+div.hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 5px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 0px;
+    line-height: 0px;
+}
+
+.hr-title {
+    background-color: #fff;
+}
+
+.dataTables_filter{
+    position: relative;
+    float: right;
+}
+.dataTables_paginate{
+    position: relative;
+    float: right;
+}
+/*  toggle button*/

@@ -1,2 +1,0 @@
-# AdminOmni
-Admin Panel Code
